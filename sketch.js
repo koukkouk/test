@@ -105,7 +105,7 @@ function draw() {
     
     for(var i=0;i<=4;i++){
       let h = map(pow(i*2000,powerNumber),0,8000,0,-height)*animationProdress1
-      line(0,h*2.7-40,width,h*2.8-40)
+      line(0,h*2.7-40,width,h*2.7-40)
       push()
         fill(255)
         text(i*100,-80,h*2.8-40)
